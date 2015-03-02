@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulier PR-Week 3</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  </head>
+
+  <body>
+    <form action="voorbeeld.php" method="POST">
+        <p><label class="field" for="titel">Titel:</label> <input type="text" id="titel" name="titel"></p></br>
+
+
+        <p>
+        <label class="field" for="achtergrondkleur">Achtergrond:</label>
+          <select id="achtergrondkleur" name="achtergrondkleur">
+            <option value="groen">Groen</option>
+            <option value="rood">Rood</option>
+            <option value="geel">Geel</option>
+          </select>
+        </p>
+
+        <p>
+
+          <label for="arial">Arial</label><input type="radio" id="arial" name="font" value="Arial"></br>
+          <label for="times">Times</label><input type="radio" id="times" name="font" value="Times"></br>
+          <label for="comic">Comic</label><input type="radio" id="comic" name="font" value="Comic"></br>
+        </p
+
+        <p>
+        <label class="field" for="lettergrootte">Lettergrootte:</label>
+          <select id="lettergrootte" name="lettergrootte">
+            <option value="een">1</option>
+            <option value="twee">2</option>
+            <option value="drie">3</option>
+          </select>
+        </p>
+
+        <p>
+          <input type="submit" value="Verzenden">
+        </p>
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+input[type=text] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.1em solid lightgrey;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  width: 500px;
+  height: 100%;
+  padding: 10px;
+}
+
+#inputdiv {
+  width: 400px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+#db_uitlezen {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 400px;
+}
+
+#db_uitlezen th {
+  background-color: green;
+  color: white;
+}
+
+#db_uitlezen tr{
+  padding: 25px;
+  margin: 5px;
+}
+
+#db_uitlezen td {
+  text-align: center;
+  vertical-align: bottom;
+}
